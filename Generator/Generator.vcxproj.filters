@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="OpenCL Files">
+      <UniqueIdentifier>{D011BB44-1BF7-4113-997B-A081035B40D8}</UniqueIdentifier>
+      <Extensions>cl</Extensions>
+    </Filter>
+    <Filter Include="ProfanityCode">
+      <UniqueIdentifier>{aa737327-513a-47e3-b3f2-880c1dceb50b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generator">
+      <UniqueIdentifier>{851a4960-7a81-4a93-bf45-817a28b41c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Check">
+      <UniqueIdentifier>{3d060c19-6d2f-4c77-abcf-b02550ccfa72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sort">
+      <UniqueIdentifier>{8caca2f5-cca9-4e7b-8b5f-c4c2a0d495b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{5ba8da58-70ad-4784-8eef-33dec7786824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{f5a4ea76-fc31-4ca3-97c8-d06227bcc837}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfanityCode\Mode.cpp">
+      <Filter>ProfanityCode</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfanityCode\SpeedSample.cpp">
+      <Filter>ProfanityCode</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfanityCode\precomp.cpp">
+      <Filter>ProfanityCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Generator\Dispatcher.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Generator\Generator.cpp">
+      <Filter>Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Check\Check.cpp">
+      <Filter>Check</Filter>
+    </ClCompile>
+    <ClCompile Include="Check\profanity_cpu.cpp">
+      <Filter>Check</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort\Sort.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\Config.cpp">
+      <Filter>Config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Generator\Dispatcher.hpp">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Generator\Generator.hpp">
+      <Filter>Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Check\Check.hpp">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="Check\profanity_cpu.hpp">
+      <Filter>Check</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort\Sort.hpp">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Buffer.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\Config.hpp">
+      <Filter>Config</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.cfg" />
+    <None Include="gen_public_keys.cl">
+      <Filter>OpenCL Files</Filter>
+    </None>
+    <None Include="config_advanced.cfg" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+</Project>

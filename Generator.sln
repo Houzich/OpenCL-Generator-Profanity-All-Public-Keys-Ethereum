@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33423.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Generator", "Generator\Generator.vcxproj", "{AB50E277-22CE-41C0-88BA-8050B7A95900}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F359B2DD-279D-406B-A470-713AE1E00DC8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exe", "exe", "{53FAAB3C-87DE-4E15-B11C-440FF3E4DCA0}"
+	ProjectSection(SolutionItems) = preProject
+		exe\config.cfg = exe\config.cfg
+		exe\config_advanced.cfg = exe\config_advanced.cfg
+		exe\gen_public_keys.cl = exe\gen_public_keys.cl
+		exe\GeneratorProfanityPubKeys.exe = exe\GeneratorProfanityPubKeys.exe
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{8278A869-9928-4D03-A7E2-97567BA719B4}"
+	ProjectSection(SolutionItems) = preProject
+		image\Screenshot_1.png = image\Screenshot_1.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tables_bin", "tables_bin", "{81C5B172-81AC-40EF-A1F4-0FC9793B55AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tables_bin_8_bytes", "tables_bin_8_bytes", "{4F96A2A3-DEA8-44E4-8363-8EB5940A8671}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tables_bin_sort", "tables_bin_sort", "{FD260E70-4689-43ED-BC4B-89468500D030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB50E277-22CE-41C0-88BA-8050B7A95900}.Debug|x64.ActiveCfg = Debug|x64
+		{AB50E277-22CE-41C0-88BA-8050B7A95900}.Debug|x64.Build.0 = Debug|x64
+		{AB50E277-22CE-41C0-88BA-8050B7A95900}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB50E277-22CE-41C0-88BA-8050B7A95900}.Debug|x86.Build.0 = Debug|Win32
+		{AB50E277-22CE-41C0-88BA-8050B7A95900}.Release|x64.ActiveCfg = Release|x64
+		{AB50E277-22CE-41C0-88BA-8050B7A95900}.Release|x64.Build.0 = Release|x64
+		{AB50E277-22CE-41C0-88BA-8050B7A95900}.Release|x86.ActiveCfg = Release|Win32
+		{AB50E277-22CE-41C0-88BA-8050B7A95900}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81C5B172-81AC-40EF-A1F4-0FC9793B55AB} = {53FAAB3C-87DE-4E15-B11C-440FF3E4DCA0}
+		{4F96A2A3-DEA8-44E4-8363-8EB5940A8671} = {53FAAB3C-87DE-4E15-B11C-440FF3E4DCA0}
+		{FD260E70-4689-43ED-BC4B-89468500D030} = {53FAAB3C-87DE-4E15-B11C-440FF3E4DCA0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D571232D-91E8-42A0-ABB9-04407F3F81C8}
+	EndGlobalSection
+EndGlobal
