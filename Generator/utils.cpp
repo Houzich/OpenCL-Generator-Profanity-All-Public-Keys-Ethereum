@@ -455,7 +455,7 @@ void getFromBinaryFile(std::string filename, void* data, size_t size, size_t pos
 std::string getFileName(std::string path, size_t num_file, std::string extension) {
 	std::ostringstream ss;
 	ss << std::hex << std::uppercase;
-	ss << path << '/' << std::setfill('0') << std::setw(2) << num_file << "." << extension;
+	ss << path << '\\' << std::setfill('0') << std::setw(2) << num_file << "." << extension;
 	return ss.str();
 }
 

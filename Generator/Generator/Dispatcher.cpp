@@ -319,10 +319,8 @@ bool DispatcherGenerator::isEnd() {
 void DispatcherGenerator::writeResultToFile() {			
 	int num_file = getNumFileFromNum(Dev->keysHandled, config.num_generated_keys, config.num_files);
 	if (num_file == -1) return;
-	std::ostringstream ss;
-	ss << std::hex << std::uppercase;
-	ss << config.folder_save_keys << '/' << std::setfill('0') << std::setw(2) << (size_t)num_file << ".bin";
-	putToBinaryFile(ss.str().c_str(), Dev->dataStore.result, Dev->dataStore.result_alloc_size);
+	std::string filename = getFileName(config.folder_save_keys, num_file, "bin");
+	putToBinaryFile(filename, Dev->dataStore.result, Dev->dataStore.result_alloc_size);
 }
 
 int DispatcherGenerator::saveResult() {
