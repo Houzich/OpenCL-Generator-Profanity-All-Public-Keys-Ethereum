@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exe", "exe", "{53FAAB3C-87D
 		exe\config.cfg = exe\config.cfg
 		exe\config_advanced.cfg = exe\config_advanced.cfg
 		exe\gen_public_keys.cl = exe\gen_public_keys.cl
-		exe\GeneratorProfanityPubKeysV00.exe = exe\GeneratorProfanityPubKeysV00.exe
+		exe\GeneratorProfanityPubKeysV01.exe = exe\GeneratorProfanityPubKeysV01.exe
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image", "image", "{8278A869-9928-4D03-A7E2-97567BA719B4}"

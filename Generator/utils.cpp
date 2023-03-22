@@ -546,8 +546,8 @@ int getNumFileFromNum(size_t num, size_t all_num, size_t num_files) {
 	if (num > all_num) { std::cerr << "ERROR getNumFileFromNum(): num > all_num. num = " << num << ", all_num = " << all_num << std::endl; return -1; }
 	if (all_num < num_files) { std::cerr << "ERROR getNumFileFromNum(): all_num < num_files. all_num = " << all_num << ", num_files = " << num_files << std::endl; return -1; }
 
-	int num_in_file = (int)(all_num / num_files);
-	int num_file = ((int)num - 1) / num_in_file;
+	int num_in_file = (size_t)(all_num / num_files);
+	int num_file = ((size_t)num - 1) / num_in_file;
 
 	return num_file;
 }

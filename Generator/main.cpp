@@ -35,8 +35,6 @@ int main(int argc, char** argv) {
 			std::this_thread::sleep_for(std::chrono::seconds(30));
 	}
 
-
-
 	std::vector<cl_device_id> vFoundDevices = getAllDevices();
 	cl_device_id Device = NULL;
 
