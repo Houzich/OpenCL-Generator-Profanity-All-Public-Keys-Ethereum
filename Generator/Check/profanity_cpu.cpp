@@ -663,3 +663,4 @@ void gen_public_key(const point* const precomp, private_key* const pPrivateKey, 
 	profanity_init_seed(precomp, (point*)pResult, &bIsFirst, 8 * 255 * 2, pPrivateKey->key.z);
 	profanity_init_seed(precomp, (point*)pResult, &bIsFirst, 8 * 255 * 3, pPrivateKey->key.w);
 }
+
