@@ -65,3 +65,4 @@ usage: ./profanity [OPTIONS]
     corners to improve overall performance.)";
 
 #endif /* HPP_HELP */
+

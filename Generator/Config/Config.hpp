@@ -1,4 +1,4 @@
-﻿#ifndef HPP_CONFIG
+#ifndef HPP_CONFIG
 #define HPP_CONFIG
 
 #include <string>
@@ -34,3 +34,4 @@ public:
 void parse_config(ConfigClass* config, std::string path);
 void parse_advanced_config(ConfigClass* config, std::string path);
 #endif /* HPP_CONFIG */
+
