@@ -7,3 +7,4 @@
 int GenerateAllPublicKeys(cl_device_id* device, ConfigClass& config);
 
 #endif /* HPP_GENERATOR */
+
