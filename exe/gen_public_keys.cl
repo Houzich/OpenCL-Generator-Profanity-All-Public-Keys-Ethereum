@@ -1,4 +1,4 @@
-﻿// TODO: Add OpenCL kernel code here.
+// TODO: Add OpenCL kernel code here.
 
 #define printf(...)
 
@@ -690,6 +690,7 @@ __kernel void gen_public_keys(__global const point * const precomp, __global pri
 	pResult[id].y.d[7] = p.y.d[7];
 
 }
+
 
 
 

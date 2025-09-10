@@ -1,4 +1,4 @@
-ï»¿
+
 #include <stdexcept>
 #include <iostream>
 #include <thread>
@@ -190,8 +190,8 @@ void DispatcherGenerator::init() {
 
 
 
-	std::wcout << L"Ð˜Ð½Ð¸Ñ†Ð¸Ð°Ð»Ð¸Ð·Ð°Ñ†Ð¸Ñ..." << std::endl;
-	std::wcout << L"ÐœÐ¾Ð¶ÐµÑ‚ Ð·Ð°Ð½ÑÑ‚ÑŒ Ð½ÐµÑÐºÐ¾Ð»ÑŒÐºÐ¾ Ð¼Ð¸Ð½ÑƒÑ‚..." << std::endl;
+	std::wcout << L"Èíèöèàëèçàöèÿ..." << std::endl;
+	std::wcout << L"Ìîæåò çàíÿòü íåñêîëüêî ìèíóò..." << std::endl;
 	sizeInitTotal = config.num_keys_gpu_worksize;
 	sizeInitDone = 0;
 	
@@ -417,3 +417,4 @@ std::string DispatcherGenerator::formatSpeed(double f) {
 	ss << std::fixed << std::setprecision(3) << (double)f << " " << S[index] << "H/s";
 	return ss.str();
 }
+

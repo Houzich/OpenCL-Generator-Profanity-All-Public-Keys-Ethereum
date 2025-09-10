@@ -172,3 +172,4 @@ private: /* Instance variables */
 };
 
 #endif /* HPP_DISPATCHER_GENERATOR */
+

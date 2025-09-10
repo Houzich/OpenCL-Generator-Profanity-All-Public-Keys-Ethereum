@@ -129,3 +129,4 @@ int GenerateAllPublicKeys(cl_device_id* device, ConfigClass& config) {
 	return 1;
 }
 
+

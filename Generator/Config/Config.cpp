@@ -1,8 +1,8 @@
-ï»¿
+
 #include "Config.hpp"
 
 
-void check_advanced_Ñonfig(ConfigClass* config)
+void check_advanced_ñonfig(ConfigClass* config)
 {
 		if ((config->num_generated_keys % config->num_files) != 0) {
 			std::cerr << "ERROR CHECK config_advanced.cfg FILE: config->number_of_generated_keys % config->num_files != 0" << std::endl;
@@ -60,12 +60,13 @@ void parse_advanced_config(ConfigClass* config, std::string path)
 		throw std::logic_error("error parse config_advanced.cfg file");
 	}
 	try {
-		check_advanced_Ñonfig(config);
+		check_advanced_ñonfig(config);
 	}
 	catch (...) {
 		throw std::logic_error("error check config_advanced.cfg file");
 	}
 }
+
 
 
 

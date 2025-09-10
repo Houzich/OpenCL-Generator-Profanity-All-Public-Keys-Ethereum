@@ -121,3 +121,4 @@ void closeInStreams(std::ifstream in[]);
 int getNumFileFromNum(size_t num, size_t all_num, size_t num_files);
 #endif /* HPP_UTILS */
 
+

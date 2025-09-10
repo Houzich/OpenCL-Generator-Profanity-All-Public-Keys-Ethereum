@@ -74,4 +74,4 @@
 
 
 
-### ОБСУЖДЕНИЕ КОДА: https://t.me/BRUTE_FORCE_CRYPTO_WALLET
+### ОБСУЖДЕНИЕ КОДА: https://t.me/brute_force_gpu

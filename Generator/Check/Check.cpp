@@ -105,3 +105,4 @@ int CheckTest(ConfigClass& config)
 	std::cout << "End Check";
 	return 0;
 }
+

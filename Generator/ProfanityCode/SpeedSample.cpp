@@ -38,3 +38,4 @@ void SpeedSample::sample(const double V) {
 SpeedSample::timepoint SpeedSample::now() {
 	return std::chrono::steady_clock::now();
 }
+
