@@ -19,3 +19,4 @@ std::string toString(const T & t) {
 }
 
 #endif /* HPP_LEXICALCAST */
+

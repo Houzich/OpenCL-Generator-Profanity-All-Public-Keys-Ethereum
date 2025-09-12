@@ -66,3 +66,4 @@ usage: ./profanity [OPTIONS]
 
 #endif /* HPP_HELP */
 
+

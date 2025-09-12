@@ -24,3 +24,4 @@ class SpeedSample {
 };
 
 #endif /* HPP_SPEEDSAMPLE */
+

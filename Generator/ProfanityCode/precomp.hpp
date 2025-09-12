@@ -6,3 +6,4 @@
 extern point g_precomp[8160];
 
 #endif /* HPP_PRECOMP */
+

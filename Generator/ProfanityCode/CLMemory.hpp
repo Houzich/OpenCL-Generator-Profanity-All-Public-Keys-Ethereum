@@ -80,3 +80,4 @@ template<typename T> class CLMemory {
 };
 
 #endif /* HPP_CLMEMORY */
+

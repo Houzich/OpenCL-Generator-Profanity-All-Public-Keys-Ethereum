@@ -82,3 +82,4 @@ usage: ./profanity [OPTIONS]
 |R9 290|1040|1300|NO|91 MH/s| ~47 s | 1.1x
 |RX 470|1216|1750|YES|73 MH/s| ~59s | 1.2x
 
+

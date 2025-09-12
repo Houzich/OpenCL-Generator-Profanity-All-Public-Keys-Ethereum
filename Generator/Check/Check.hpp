@@ -9,3 +9,4 @@ int Check(ConfigClass& config, DataClass& Data);
 int CheckTest(ConfigClass& config);
 #endif /* HPP_CHECK */
 
+

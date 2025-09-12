@@ -699,3 +699,4 @@ __kernel void gen_public_keys(__global const point * const precomp, __global pri
 
 
 
+

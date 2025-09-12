@@ -35,3 +35,4 @@ void parse_config(ConfigClass* config, std::string path);
 void parse_advanced_config(ConfigClass* config, std::string path);
 #endif /* HPP_CONFIG */
 
+

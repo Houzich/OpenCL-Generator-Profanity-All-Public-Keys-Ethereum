@@ -11,3 +11,4 @@
 //#define STORE_FOLDER "G:/StoreTest1/"
 
 #endif /* HPP_DEFINES */
+
